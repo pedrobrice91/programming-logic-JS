@@ -1,0 +1,27 @@
+/* Crea un programa que implemente un juego de "Adivina el Número".
+
+### 1. Inicialización del Juego
+   a) Define el rango de números válidos para el juego: del 1 al 17 (ambos incluidos).
+   b) Genera un número entero aleatorio dentro de ese rango (este es el número secreto).
+
+### 2. Lógica del Bucle
+   a) Utiliza un bucle (como 'while' o 'do-while') para permitir al usuario realizar múltiples intentos.
+   b) Solicita al usuario que ingrese su intento de adivinar el número secreto.
+
+### 3. Condiciones de Retroalimentación
+   En cada intento, el programa debe comparar el número ingresado por el usuario con el número secreto y proporcionar una de las siguientes retroalimentaciones:
+      - Si el intento es incorrecto: Indica al usuario si el número secreto es **"Mayor"** o **"Menor"** que el número ingresado.
+      - Si el intento es correcto: Muestra un mensaje de **felicitación** y detiene el bucle.
+      - Si el número ingresado está **fuera del rango 1-17**: Informa al usuario que el número es inválido y no lo cuenta como un intento.
+
+### 4. Requisito de Salida
+   Al finalizar el juego (cuando el número es adivinado), muestra un mensaje final que incluya:
+   a) El número secreto.
+   b) El número total de intentos que le tomó al usuario adivinar.
+
+Ejemplo de flujo:
+1. El programa elige el número secreto (por ejemplo, 12).
+2. Usuario introduce: 8. -> Salida: "Mayor"
+3. Usuario introduce: 15. -> Salida: "Menor"
+4. Usuario introduce: 12. -> Salida: "¡Felicidades! Adivinaste el número 12 en 3 intentos."
+*/

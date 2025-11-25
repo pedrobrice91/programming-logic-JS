@@ -1,0 +1,22 @@
+/* Crea una función llamada 'terminanConA' que evalúe un array de palabras.
+
+### 1. Requisito de Entrada
+La función debe recibir un único argumento: 'palabras', que es un array de strings (ejemplo: ["casa", "mesa", "silla"]).
+
+### 2. Lógica de Verificación
+Utiliza el método de array **Array.prototype.every()** junto con el método de string **String.prototype.endsWith()** para evaluar la condición.
+
+### 3. Requisito de Salida
+La función debe devolver un valor booleano:
+   a) Retornar **true** si absolutamente TODAS las palabras del array terminan con la letra "a" (sin importar mayúsculas o minúsculas).
+   b) Retornar **false** si al menos una palabra del array NO termina con la letra "a".
+
+Ejemplo de flujo:
+1. Entrada: ["salsa", "pasta", "pizza"]
+2. Salida: true
+
+3. Entrada: ["coche", "moto", "casa"]
+4. Salida: false
+
+5. Nota sobre mayúsculas/minúsculas: Antes de usar endsWith(), convierte la palabra a minúsculas para asegurar que funcione correctamente con entradas como "CASA".
+*/

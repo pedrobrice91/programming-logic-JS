@@ -1,0 +1,33 @@
+/* Tu heladería ahora tiene diferentes tipos de helado y envases, y ofrece promociones especiales.
+
+### 1. Datos Iniciales
+Define los siguientes precios y tipos de productos como un objeto:
+- Bola de Helado: 1.80 EUR
+- Barquilla (Cono): 0.50 EUR
+- Tarrina (Copa): 0.80 EUR
+
+### 2. Función Principal
+Crea una función llamada calcularPrecioFinal que acepte los siguientes tres argumentos:
+1. numBolas: El número de bolas solicitadas.
+2. tipoContenedor: El tipo de envase ("barquilla" o "tarrina").
+3. esFinDeSemana: Un valor booleano (true o false) para simular el día de la semana.
+
+### 3. Reglas de Descuento
+Implementa la siguiente lógica de descuentos, aplicados en este orden:
+
+a) Descuento por Cantidad (Días de Semana):
+   - Si el cliente pide 4 bolas o más, se aplica un 15% de descuento sobre el costo total de las bolas (no sobre el contenedor).
+
+b) Promoción de Fin de Semana (Sábados y Domingos):
+   - Si esFinDeSemana es true Y el pedido es de al menos 3 bolas, el cliente recibe un 50% de descuento en el precio del contenedor (barquilla o tarrina).
+
+### 4. Requisito Final
+La función debe devolver un objeto con el siguiente formato, mostrando los precios finales y el descuento aplicado:
+
+{
+  precioBolas: // Precio de las bolas después de descuentos
+  precioContenedor: // Precio del contenedor después de descuentos
+  precioTotal: // Suma final
+  descuentoAplicado: // Ej: "15% en bolas y 50% en tarrina", "15% en bolas" o "Ninguno"
+}
+*/

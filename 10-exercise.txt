@@ -1,0 +1,24 @@
+/* Crea una función que ordene un array de números de menor a mayor basándose en su valor absoluto.
+
+### 1. Requisito de Entrada
+La función debe recibir un único argumento: 'numeros', que es un array de números enteros (pueden ser positivos o negativos).
+Ejemplo de entrada: [5, -10, -2, -25, -7]
+
+### 2. Lógica de Ordenamiento
+Utiliza el método de array **Array.prototype.sort()** en conjunto con el método **Math.abs()**.
+El criterio de ordenación debe ser el siguiente:
+   - Los números deben compararse basándose ÚNICAMENTE en su valor absoluto (sin signo).
+   - El resultado debe ser un array ordenado de forma ascendente (de menor valor absoluto a mayor valor absoluto).
+
+### 3. Requisito de Salida
+La función debe devolver el array original de números, pero ordenado según el valor absoluto de sus elementos.
+
+Ejemplo de flujo:
+1. Entrada: [5, -10, -2, -25, -7]
+2. Valores Absolutos para ordenar: [5, 10, 2, 25, 7]
+3. Orden por Valor Absoluto: [2, 5, 7, 10, 25]
+4. Salida del array original con ese orden: [-2, 5, -7, -10, -25] 
+   (Nota: El ejemplo de salida es [ -2, 5, -7, 10, -25 ] si el '10' es positivo en la salida, pero la forma más común de este ejercicio es devolver los valores originales, como en el paso 4).
+
+// *Se usará el ejemplo de salida original: [-2, 5, -7, 10, -25]
+*/

@@ -1,0 +1,28 @@
+/* Crea un programa que calcule la suma total y la media aritmética de una secuencia de números.
+
+### 1. Requisito de Entrada
+Solicita al usuario que ingrese números uno por uno de forma continua.
+
+### 2. Condición de Parada
+El proceso de solicitud de números debe detenerse inmediatamente cuando el usuario ingrese un número negativo (menor a cero). El número negativo NO debe incluirse en la suma ni en el cálculo de la media.
+
+### 3. Lógica de Cálculo
+El programa debe llevar un registro de:
+   a) La suma acumulada de todos los números positivos ingresados.
+   b) El total de números positivos ingresados (el contador).
+
+### 4. Requisito de Salida
+Al detenerse el programa (por el ingreso de un número negativo), debe mostrar los siguientes resultados finales:
+   a) La Suma Total de los números positivos.
+   b) La Media Aritmética (Suma Total dividida por el Contador de números).
+
+Ejemplo de flujo:
+Entradas: 5, 10, 3, 7, -1
+Cálculos:
+Suma: 5 + 10 + 3 + 7 = 25
+Media: 25 / 4 = 6.25
+
+Ejemplo de Salida:
+"La suma total es: 25"
+"La media de los números ingresados es: 6.25"
+*/
