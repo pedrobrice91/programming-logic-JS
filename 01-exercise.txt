@@ -1,0 +1,22 @@
+/* Crea un programa que calcule el Índice de Masa Corporal (IMC) de una persona.
+
+1. Pide al usuario que ingrese su peso (en kilogramos) y su altura (en metros).
+
+2. Calcula el IMC utilizando la fórmula:
+   IMC = peso / (altura * altura)
+
+3. Clasifica el resultado del IMC según los siguientes rangos:
+   - Bajo peso (IMC < 18.5)
+   - Peso normal (18.5 ≤ IMC < 25)
+   - Sobrepeso (25 ≤ IMC < 30)
+   - Obesidad (IMC ≥ 30)
+
+4. Muestra un mensaje final que indique el IMC calculado y su clasificación.
+
+Ejemplo de cálculo (Peso: 68.5 kg, Altura: 1.75 m):
+altura² = 1.75 * 1.75 = 3.0625
+IMC = 68.5 / 3.0625 ≈ 22.36
+
+Y mostrará:
+"Tu IMC es: 22.36, lo que indica Peso normal."
+*/
