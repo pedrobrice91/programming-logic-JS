@@ -1,7 +1,6 @@
-/* Tu heladería ahora tiene diferentes tipos de helado y envases, y ofrece promociones especiales.
+/* Tu heladería tiene diferentes tipos de helado y envases, y ofrece promociones especiales.
 
 ### 1. Datos Iniciales
-Define los siguientes precios y tipos de productos como un objeto:
 - Bola de Helado: 1.80 EUR
 - Barquilla (Cono): 0.50 EUR
 - Tarrina (Copa): 0.80 EUR
