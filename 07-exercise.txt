@@ -1,29 +1,9 @@
-/* Crea una aplicación de calculadora que realice las cuatro operaciones básicas (suma, resta, multiplicación y división) sobre dos números.
-
-### 1. Requisito de Entrada
-Solicita al usuario que ingrese dos números (Número 1 y Número 2) de forma consecutiva.
-
-### 2. Validación de Entrada (Plus)
-Implementa un bucle que asegure que ambos valores ingresados sean:
-   a) Números válidos (no sean NaN).
-   b) Que el usuario reciba un mensaje de error si la entrada es incorrecta, y se le pida el número nuevamente hasta que sea válido.
-
-### 3. Lógica de Cálculo
-Una vez que ambos números son válidos, realiza las siguientes operaciones:
-   - Suma
-   - Resta
-   - Multiplicación
-   - División
-
-### 4. Requisito de Salida
-Muestra los resultados de las cuatro operaciones de dos maneras distintas:
-   a) **En consola:** Imprime los resultados de forma detallada (e.g., "Suma: X").
-   b) **En una salida impresa (simulando alerta):** Crea una única cadena de texto con todos los resultados y muéstrala como resultado final del programa.
-
-Ejemplo de Salida Impresa:
-"Resultados de la calculadora:
-Suma: 15
-Resta: 5
-Multiplicación: 50
-División: 2"
+/* 
+En una biblioteca queremos saber qué libro es el que menos páginas tiene 
+y el que más páginas. Por suerte, no hay dos libros con el mismo número de páginas.
+Necesitamos que la función reciba un array de números, sin ordenar, y que devuelva 
+un array de dos posiciones con el índice del libro con menos páginas y el índice del 
+libro con más páginas.
 */
+
+biblioteca = [300, 150, 450, 200, 500, 100];

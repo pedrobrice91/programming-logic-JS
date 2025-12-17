@@ -1,5 +1,7 @@
-function ComparaNumeros(){
-
+function tablaMultiplicar(numero){
+    for (let i = 1; i <=10; i++){
+        console.log(`${numero} x ${i} = `+ numero*i);
+    }
 }
 
-console.log(ComparaNumeros(1,3))
+console.log(tablaMultiplicar(9))

@@ -1,21 +1,6 @@
-/* Crea un programa que muestre la tabla de multiplicar completa (del 1 al 10) de un número.
-
-### 1. Requisito de Entrada
-Solicita al usuario que ingrese un único número entero.
-
-### 2. Lógica del Bucle
-Utiliza una estructura de bucle para iterar desde 1 hasta 10.
-
-### 3. Cálculo
-Dentro del bucle, calcula el resultado de multiplicar el número ingresado por el usuario por el número de la iteración actual (1, 2, 3, ... hasta 10).
-
-### 4. Requisito de Salida
-Muestra cada una de las líneas de la tabla de multiplicar en un formato claro y ordenado.
-
-Ejemplo de flujo (Si el usuario ingresa 7):
-Muestra:
-"7 x 1 = 7"
-"7 x 2 = 14"
-...
-"7 x 10 = 70"
+/* 
+Crea una función llamada terminanConA que reciba un arreglo de palabras 
+y determine si todas las palabras del arreglo terminan con la letra "a", 
+sin importar si están en mayúsculas o minúsculas. La función debe devolver 
+true si todas cumplen la condición y false en caso contrario.
 */

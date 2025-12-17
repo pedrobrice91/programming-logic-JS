@@ -1,27 +1,8 @@
-
-/* Crea una función llamada procesarPedido que manipule un array de platos que representa un pedido a domicilio.
-
-### 1. Requisito de Entrada
-La función debe recibir un único argumento: 'pedido', que es un array de strings.
-El primer elemento del array SIEMPRE es el nombre del cliente.
-Los elementos restantes son los platos de comida.
-
-Ejemplo de pedido de entrada: ["Ana Pérez", "Hamburguesa", "Papas fritas", "Ensalada"]
-
-### 2. Secuencia de Manipulación del Array
-Dentro de la función, realiza las siguientes operaciones en orden:
-   a) **Extraer el Cliente:** Saca el primer elemento (el nombre del cliente) del array de platos y guárdalo en una variable.
-   b) **Añadir Promoción:** Agrega la cadena de texto "bebida" al principio del array (justo antes de los platos).
-   c) **Añadir Cliente al Final:** Agrega el nombre del cliente (el que extrajiste en el paso 'a') al final del array.
-
-### 3. Requisito de Salida
-La función debe devolver el array de platos MODIFICADO.
-
-Ejemplo de flujo (usando la entrada de ejemplo):
-1. Entrada: ["Ana Pérez", "Hamburguesa", "Papas fritas", "Ensalada"]
-2. Extraer Cliente: "Ana Pérez"
-3. Añadir Promoción: ["bebida", "Hamburguesa", "Papas fritas", "Ensalada"]
-4. Añadir Cliente: ["bebida", "Hamburguesa", "Papas fritas", "Ensalada", "Ana Pérez"]
-
-Salida esperada: ["bebida", "Hamburguesa", "Papas fritas", "Ensalada", "Ana Pérez"]
+/* 
+Recibes dos parámetros: una lista de palabras words y una palabra word. 
+Primero, busca el índice de la palabra en la lista. Después, usa ese índice 
+(que será un número) y devuelve todas las palabras de words que sean más largas 
+(length) que el número del índice.
+Ten en cuenta que la palabra word siempre existirá en el array, 
+por lo que no es necesario comprobar si existe o no. 
 */

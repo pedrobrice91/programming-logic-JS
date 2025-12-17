@@ -1,24 +1,6 @@
-/* Crea un programa que compare dos números ingresados por el usuario.
-
-### 1. Requisitos de Entrada
-Solicita al usuario que ingrese dos números (Número 1 y Número 2).
-
-### 2. Validación (Plus)
-Implementa un bucle o una estructura de control que se repita si:
-   a) Cualquiera de las entradas no es un número válido (NaN).
-   b) Cualquiera de las entradas es menor o igual a cero (<= 0).
-   El programa debe seguir pidiendo los números hasta que ambos sean números positivos y válidos.
-
-### 3. Lógica de Comparación
-Compara los dos números y determina:
-   a) Cuál es el mayor.
-   b) Cuál es el menor.
-   c) Si son exactamente iguales.
-
-### 4. Requisito de Salida
-Muestra un mensaje final claro que indique el resultado de la comparación.
-
-Ejemplos de Salida:
-- Si Num1 = 15 y Num2 = 10: "El número mayor es 15 y el número menor es 10."
-- Si Num1 = 7 y Num2 = 7: "Ambos números son iguales: 7."
+/* 
+Crea un programa que, dado un número entero ingresado 
+por el usuario, muestre su tabla de multiplicar completa
+del 1 al 10, presentando cada operación en líneas 
+separadas y de forma ordenada.
 */
