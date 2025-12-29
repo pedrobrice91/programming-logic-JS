@@ -1,7 +1,17 @@
 function terminanConA(arreglo){
-    arreglo.forEach(element => {
-        console.log(element.endsWith('a'))
-    });
+  let todos = true;
+  
+  arreglo.forEach(element => {
+        if(!(element.toLowerCase().endsWith('a'))){
+         todos = false; 
+        }
+  });
+      
+  if(todos){
+    console.log(true)
+  }else
+    console.log(false)
+
 }
 
 terminanConA(['manzana', 'PaolA', 'pintura']);
