@@ -1,10 +1,21 @@
+function buscarPalabra(arra, word){
 
-function buscarPosicion(arr){
+  for(i = 0; i < arra.length; i++){
+    for(j = 0; j < arra[i].length; j++){
+        if(arra[i][j] === word){
+          return console.log(`[${j} : ${i}]`);
+        }
+      }
+  }
+  console.log('[-1 : -1]')
+}
 
-};
+let palabra = 'JavaScript';
 
-let lenguajes = ["JavaScript", "HTML", "python"];
-let otros = ['perro', 'gato', 'avion'];
-console.log(buscarPosicion())
+const matrizNombres = [
+  ["Juan", "Pedro", "Ana"],
+  ["Luis", "JavaScript", "Sofía"],
+  ["Carlos", "Elena", "Diego"]
+];
 
-
+buscarPalabra(matrizNombres, palabra)

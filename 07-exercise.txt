@@ -5,5 +5,3 @@ Necesitamos que la función reciba un array de números, sin ordenar, y que devu
 un array de dos posiciones con el índice del libro con menos páginas y el índice del 
 libro con más páginas.
 */
-
-biblioteca = [300, 150, 450, 200, 500, 100];

@@ -1,0 +1,29 @@
+Exercise #2
+Write a program that prints the numbers from 1 to 100 and for multiples of '3' print "Tic" instead of the number and for the multiples of '5' print "Toc", if the number is multiple of 3 and 5 then print “TicToc”.	Escriba una rutina que imprima los números del 1 al 100 pero: cuando el número sea múltiplo de 3, imprima “Tic”, en lugar del número. Cuando el número sea múltiplo de 5, imprima “Toc”, en lugar del número. Cuando el número sea múltiplo tanto de 3 como de 5, imprima “TicToc”, en lugar del número.
+
+Example Output:
+
+	for (let i = 0; i<=100; i++){
+  if(i % 3 === 0){
+    console.log("tic")
+  }else if (i % 5 === 0){
+    console.log("Toc")
+  }else if ( (i % 5 === 0) && (i % 3 === 0){
+    console.log(“TicToc”)
+  }
+}else 
+Console (i)
+
+
+
+for (let i = 0; i<=100; i++){
+  if(i % 3 === 0){
+    console.log("tic")
+  }else if (i % 5 === 0){
+    console.log("Toc")
+  }else if (){
+    console.log(“TicToc”)
+  }
+  console.log(`Numero ${i} ES PAR `)
+
+
