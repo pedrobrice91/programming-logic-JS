@@ -9,7 +9,6 @@ El loop (bucle) actual se repite del cero a diez.
 ## 📝 Instrucciones:
 
 1. Por favor, haz un loop de 1 a 17.
-
 ## 💻 Ejemplo de salida:
 
 ```js

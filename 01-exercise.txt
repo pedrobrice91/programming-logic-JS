@@ -11,6 +11,5 @@ Crea un programa que calcule el Índice de Masa Corporal (IMC) de una persona.
    - Peso normal (MENOR a 25)
    - Sobrepeso (MENOR a 30)
    - Obesidad (MAYOR a 30)
-
 4. Muestra un mensaje final que indique el IMC calculado y su clasificación.
 */
